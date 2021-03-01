@@ -30,7 +30,7 @@ variable "resourcename" {
 variable "acrname"{
     description = "Name of Container Register"
     type        = string
-    default     = "demo01acr"
+    default     = "viiniservicingacr"
 }
 variable "clustername" {
     description = "Cluster AKS name in Azure"
